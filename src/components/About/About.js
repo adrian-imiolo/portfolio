@@ -20,10 +20,14 @@ function About() {
           Formal <strong className="purple">Education </strong>
         </h1>
         <div>
-          <a href="http://pwr.edu.pl/en/" target="_blank" className="pwrContainer">
-            <img className="pwrImg" src={pwrLogo} />
+          <a
+            href="http://pwr.edu.pl/en/"
+            rel="noreferrer"
+            target="_blank"
+            className="pwrContainer"
+          >
+            <img alt="pwr logo" className="pwrImg" src={pwrLogo} />
           </a>
-
         </div>
         <h1 className="project-heading">
           Programming <strong className="purple">Education </strong>
@@ -53,7 +57,6 @@ function About() {
             {/* <img src={parkourImg} alt="about" className="img-fluid" style={{ borderRadius: "20%" }} /> */}
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
-
         </Row>
 
         {/* <h1 className="project-heading">

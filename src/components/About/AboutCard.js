@@ -1,7 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
-import { GiMountainClimbing } from "react-icons/gi";
 
 function AboutCard() {
   return (
@@ -16,6 +14,7 @@ function AboutCard() {
               href="https://climbium.pl"
               style={{ textDecoration: "none" }}
               target="_blank"
+              rel="noreferrer"
             >
               <span className="purple">CLIMBIUM</span>
             </a>
@@ -36,13 +35,6 @@ function AboutCard() {
             <li className="about-activity">🧗Climbing</li>
             <li className="about-activity">♟️Chess</li>
           </ul>
-
-          {/* <p style={{ color: "rgb(155 126 172)" }}>
-            "Except for time spent with friends and a night with a beautiful woman,
-            there is nothing more beautiful than "aha!" moments when you try
-            to solve a problem!"{" "}
-          </p> */}
-          {/* <footer className="blockquote-footer">Adrian</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
@@ -50,7 +42,3 @@ function AboutCard() {
 }
 
 export default AboutCard;
-
-// "Except for time spent with friends and a night with a beautiful girl,
-// there is nothing more beautiful than "aha!" moments when you try
-// to solve a problem!"{" "}

@@ -5,11 +5,12 @@ import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/adrian-imiolo-resume.pdf";
 import cv from "../../Assets/../Assets/cv.png";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
+  // eslint-disable-next-line no-unused-vars
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -38,9 +39,6 @@ function ResumeNew() {
             src={cv}
             style={{ width: "60%", maxWidth: "700px" }}
           />
-          {/* <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document> */}
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>

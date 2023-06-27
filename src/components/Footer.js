@@ -1,11 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-
+import { AiFillGithub } from "react-icons/ai";
 import { DiReact } from "react-icons/di";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -18,7 +13,7 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>
             Built using
-            <a href="https://reactjs.org/" target="_blank">
+            <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
               {
                 <DiReact
                   style={{ transform: "scale(2)", marginLeft: "10px" }}
@@ -42,16 +37,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href=" "
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li> */}
+
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/adrian-imiolo/"
@@ -62,16 +48,6 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href=" "
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li> */}
           </ul>
         </Col>
       </Row>
