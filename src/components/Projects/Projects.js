@@ -11,6 +11,7 @@ import pacman from "../../Assets/Projects/pacman.png";
 import snake from "../../Assets/Projects/snake.png";
 import chrome from "../../Assets/Projects/chrome.png";
 import notes from "../../Assets/Projects/notes.png";
+import todo from "../../Assets/Projects/todo.png";
 
 function Projects() {
   return (
@@ -30,6 +31,21 @@ function Projects() {
           </p>{" "}
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}></Row>
+        <h2>
+          <strong className="purple">Vue JS</strong>
+        </h2>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="Todo App"
+              description="Basic Todo App built with Vue"
+              tools="Vue • JavaScript • HTML • CSS"
+              link="https://vue-todo-app123.netlify.app/"
+            />
+          </Col>
+        </Row>
         <h2>
           <strong className="purple">React JS</strong>
         </h2>
@@ -122,31 +138,6 @@ function Projects() {
               link="https://snake-123.netlify.app/"
             />
           </Col>
-          {/* <h2>
-            <strong className="purple">WordPress</strong>
-          </h2> */}
-          {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            {/* <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={instEco}
-                isBlog={false}
-                title="INST-ECO"
-                description="Business website I've made for INST-ECO company. "
-                tools="WordPress • Elementor • HTML • CSS"
-                link="http://insteco.pl/"
-              />
-            </Col> */}
-          {/* <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={podroze}
-                isBlog={false}
-                title="My travels"
-                description="Website with pictures and videos I've made during one year of backpacking."
-                tools="WordPress • Elementor • HTML • CSS"
-                link="http://reba95.webd.pro/podrozeksztalca.pl/"
-              />
-            </Col> */}
-          {/* </Row> */}
         </Row>
       </Container>
     </Container>
