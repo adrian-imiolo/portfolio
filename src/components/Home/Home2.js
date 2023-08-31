@@ -17,7 +17,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Self-taught programmer, passionate about building things with
-              React JS🏗️ Also developing{" "}
+              React and Vue 🏗️ Also developing{" "}
               <a
                 href="https://climbium.pl"
                 target="_blank"
