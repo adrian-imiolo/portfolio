@@ -11,6 +11,7 @@ import pacman from "../../Assets/Projects/pacman.png";
 import snake from "../../Assets/Projects/snake.png";
 import chrome from "../../Assets/Projects/chrome.png";
 import notes from "../../Assets/Projects/notes.png";
+import amazon from "../../Assets/Projects/amazon.png";
 
 function Projects() {
   return (
@@ -34,6 +35,24 @@ function Projects() {
           <strong className="purple">React JS</strong>
         </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amazon}
+              isBlog={false}
+              title="Amazon Clone"
+              description="• Checkout/payment page with stripe functionality
+              • React context API
+              • Login Page with full login functionality (sign up and sign in) with firebase authentication
+              • Cloud function to process payment (serverless)
+              • Firebase for real time database
+              • Deployed LIVE on Firebase
+              • tores orders for logged in user
+              • Geolocation
+              • Responsive Design"
+              tools="React • Firebase • JavaScript • HTML • CSS"
+              link="https://clone-f512b.firebaseapp.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tenzies}
@@ -122,31 +141,6 @@ function Projects() {
               link="https://snake-123.netlify.app/"
             />
           </Col>
-          {/* <h2>
-            <strong className="purple">WordPress</strong>
-          </h2> */}
-          {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            {/* <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={instEco}
-                isBlog={false}
-                title="INST-ECO"
-                description="Business website I've made for INST-ECO company. "
-                tools="WordPress • Elementor • HTML • CSS"
-                link="http://insteco.pl/"
-              />
-            </Col> */}
-          {/* <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={podroze}
-                isBlog={false}
-                title="My travels"
-                description="Website with pictures and videos I've made during one year of backpacking."
-                tools="WordPress • Elementor • HTML • CSS"
-                link="http://reba95.webd.pro/podrozeksztalca.pl/"
-              />
-            </Col> */}
-          {/* </Row> */}
         </Row>
       </Container>
     </Container>
