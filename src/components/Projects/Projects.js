@@ -12,7 +12,6 @@ import snake from "../../Assets/Projects/snake.png";
 import chrome from "../../Assets/Projects/chrome.png";
 import notes from "../../Assets/Projects/notes.png";
 import todo from "../../Assets/Projects/todo.png";
-import weather from "../../Assets/Projects/weather.png";
 
 function Projects() {
   return (
@@ -41,19 +40,9 @@ function Projects() {
               imgPath={todo}
               isBlog={false}
               title="Todo App"
-              description="Plan your day and complete your daily tasks using Todo App"
+              description="Basic Todo App built with Vue"
               tools="Vue • JavaScript • HTML • CSS"
               link="https://vue-todo-app123.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={weather}
-              isBlog={false}
-              title="Weather App"
-              description="Check out the weather around the world with Weather App!!!"
-              tools="Vue • JavaScript • HTML • CSS"
-              link="https://weather-app-vue123.netlify.app/"
             />
           </Col>
         </Row>
