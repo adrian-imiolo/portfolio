@@ -13,7 +13,6 @@ import chrome from "../../Assets/Projects/chrome.png";
 import notes from "../../Assets/Projects/notes.png";
 import todo from "../../Assets/Projects/todo.png";
 import weather from "../../Assets/Projects/weather.png";
-import furniture from "../../Assets/Projects/furniture.png";
 
 function Projects() {
   return (
@@ -55,16 +54,6 @@ function Projects() {
               description="Check out the weather around the world with the Weather App!!!"
               tools="Vue • JavaScript • HTML • CSS"
               link="https://weather-app-vue123.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={furniture}
-              isBlog={false}
-              title="Furniture App"
-              description="Choose the best home furnishings using the Furniture App."
-              tools="Vue • JavaScript • HTML • CSS"
-              link="https://furniture-app-vue.netlify.app/"
             />
           </Col>
         </Row>
