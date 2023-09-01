@@ -41,7 +41,7 @@ function Projects() {
               imgPath={todo}
               isBlog={false}
               title="Todo App"
-              description="Plan your day and complete your daily tasks using the Todo App"
+              description="Plan your day and complete your daily tasks using Todo App"
               tools="Vue • JavaScript • HTML • CSS"
               link="https://vue-todo-app123.netlify.app/"
             />
@@ -51,7 +51,7 @@ function Projects() {
               imgPath={weather}
               isBlog={false}
               title="Weather App"
-              description="Check out the weather around the world with the Weather App!!!"
+              description="Check out the weather around the world with Weather App!!!"
               tools="Vue • JavaScript • HTML • CSS"
               link="https://weather-app-vue123.netlify.app/"
             />
