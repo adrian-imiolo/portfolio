@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiJavascript1, DiReact, DiNodejs, DiGit } from "react-icons/di";
-import { SiCss3, SiNetlify, SiTypescript } from "react-icons/si";
+import { SiCss3, SiNetlify, SiTypescript, SiTailwindcss } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 
 function Techstack() {
@@ -22,6 +22,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />

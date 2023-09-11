@@ -31,7 +31,7 @@ function AboutCard() {
             </li>
 
             <li className="about-activity">🎸 Guitar playing</li>
-            <li className="about-activity">🍻 Home-brewing</li>
+            <li className="about-activity">⛵ Sailing</li>
             <li className="about-activity">🧗Climbing</li>
             <li className="about-activity">♟️Chess</li>
           </ul>
