@@ -37,24 +37,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={amazon}
-              isBlog={false}
-              title="Amazon Clone"
-              description="• Checkout/payment page with stripe functionality
-              • React context API
-              • Login Page with full login functionality (sign up and sign in) with firebase authentication
-              • Cloud function to process payment (serverless)
-              • Firebase for real time database
-              • Deployed LIVE on Firebase
-              • tores orders for logged in user
-              • Geolocation
-              • Responsive Design"
-              tools="React • Firebase • JavaScript • HTML • CSS"
-              link="https://clone-f512b.firebaseapp.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={tenzies}
               isBlog={false}
               title="Tenzies Game"
