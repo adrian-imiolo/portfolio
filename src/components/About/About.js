@@ -33,7 +33,6 @@ function About() {
           Programming <strong className="purple">Education </strong>
         </h1>
         <Education />
-        {/* <Projects /> */}
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
@@ -54,17 +53,9 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            {/* <img src={parkourImg} alt="about" className="img-fluid" style={{ borderRadius: "20%" }} /> */}
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-
-        {/* <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack /> */}
-
-        {/* <Github /> */}
       </Container>
     </Container>
   );

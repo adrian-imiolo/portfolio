@@ -23,9 +23,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiCss3 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
       </Col>
