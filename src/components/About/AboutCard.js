@@ -8,19 +8,9 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Adrian Imioło </span>
-            from <span className="purple"> Wrocław, Poland.</span>
-            <br />I love using React and I'm currently working on project{" "}
-            <a
-              href="https://climbium.pl"
-              style={{ textDecoration: "none" }}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="purple">CLIMBIUM</span>
-            </a>
-            ,<br></br>
-            an e-commerce business, where we compose and deliver the best
-            supplements for climbers.
+            from <span className="purple"> Szczecin, Poland.</span>
+            <br />I love using React and I'm open to works on exciting projects
+            with ambitious people!
             <br />
             <br />
             Some activities and interests that I love:

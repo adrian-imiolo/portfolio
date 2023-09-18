@@ -17,15 +17,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Self-taught programmer, passionate about building things with
-              React JS🏗️ Also developing{" "}
-              <a
-                href="https://climbium.pl"
-                target="_blank"
-                rel="noreferrer"
-                style={{ textDecoration: "none", color: "" }}
-              >
-                <b className="purple">CLIMBIUM.</b>
-              </a>
+              React JS🏗️
               <br />
               <br />
               My field of interest is&nbsp;

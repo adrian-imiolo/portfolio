@@ -32,12 +32,6 @@ function Home() {
               </div>
             </Col>
             <Col md={5} style={{ paddingBottom: 0 }}>
-              {/* <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />d */}
               <Tilt>
                 <img
                   src={myImg}
