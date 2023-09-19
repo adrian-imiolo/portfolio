@@ -9,7 +9,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Adrian Imioło </span>
             from <span className="purple"> Szczecin, Poland.</span>
-            <br />I love using React and I'm open to works on exciting projects
+            <br />I love using React and I'm open to work on exciting projects
             with ambitious people!
             <br />
             <br />

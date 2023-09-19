@@ -11,7 +11,6 @@ import pacman from "../../Assets/Projects/pacman.png";
 import snake from "../../Assets/Projects/snake.png";
 import chrome from "../../Assets/Projects/chrome.png";
 import notes from "../../Assets/Projects/notes.png";
-import amazon from "../../Assets/Projects/amazon.png";
 
 function Projects() {
   return (

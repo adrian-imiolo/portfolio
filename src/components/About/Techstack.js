@@ -31,23 +31,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <BsWordpress />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiWoocommerce />
-      </Col> */}
-
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiAdobelightroom />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiAdobephotoshop />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCanva />
-        <img src={Canva} alt="Canva" className="img-fluid" />
-      </Col> */}
     </Row>
   );
 }
