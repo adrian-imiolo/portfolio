@@ -50,7 +50,7 @@ function Projects() {
               imgPath={fastTyping}
               isBlog={false}
               title="Fast Typing Game"
-              description="Click enter and rewrite words from box above as fast as you can in 10 sec. and see how many words you can corectly rewrite in one minute. Check yourself!"
+              description="Click enter and rewrite words from box above as fast as you can in 10 sec. and see how many words you can correctly rewrite in one minute. Check yourself!"
               tools="React • JavaScript • HTML • CSS"
               link="https://fast-typing-game-123.netlify.app/"
             />
@@ -60,9 +60,7 @@ function Projects() {
               imgPath={photoshop}
               isBlog={false}
               title="E-Photo"
-              // description="Demo version of photo e-commerce"
-              description="Fully responsive Single Page App. Demo version of e-commerce website where user can add pictures to favorite, to a cart and then choose the size and send an order."
-              // Built with React (Router, useState, useEffect, useContext, react-icons, forms)
+              description="Demo version of e-commerce website where user can add pictures to favorite, to a cart and then choose the size and send an order."
               tools="React • JavaScript • HTML • CSS"
               link="https://ephoto-123.netlify.app/"
             />
