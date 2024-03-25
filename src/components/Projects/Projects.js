@@ -11,6 +11,7 @@ import pacman from "../../Assets/Projects/pacman.png";
 import snake from "../../Assets/Projects/snake.png";
 import chrome from "../../Assets/Projects/chrome.png";
 import notes from "../../Assets/Projects/notes.png";
+import adwokat from "../../Assets/Projects/adwokat_urszulak.png";
 
 function Projects() {
   return (
@@ -34,6 +35,16 @@ function Projects() {
           <strong className="purple">React JS</strong>
         </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={adwokat}
+              isBlog={false}
+              title="Law Firm Website - in progress..."
+              description="Website created for Professional Law Firm Kancelaria Adwokacka Adwokat Gabriela Urszulak"
+              tools="React • TypeScript • HTML • CSS • EmailJS"
+              link="https://adwokaturszulak.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tenzies}
